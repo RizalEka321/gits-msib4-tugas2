@@ -1,4 +1,4 @@
-# Persnal Website
+# Personal Website
 
-Nama   : Rizal Eka Budi Pratama
-Kampus : Politeknik Negeri Banyuwangi
+* Nama   : Rizal Eka Budi Pratama
+* Kampus : Politeknik Negeri Banyuwangi
