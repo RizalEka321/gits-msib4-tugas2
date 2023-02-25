@@ -1,0 +1,212 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    margin: auto;
+    background-color: black;
+}
+
+a:link {
+    color: gray;
+}
+
+a:visited {
+    color: white;
+}
+
+
+/*-------------- Navbar ----------*/
+.fotologo {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar {
+    transition: all 500ms ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+    font-style: bold;
+    font-size: 1rem;
+    font-weight: 900;
+    color: white;
+}
+
+p {
+    font-size: 110%;
+    color: black;
+}
+
+/*-------------- Home ----------*/
+#Home {
+    background-color: black;
+}
+
+.judul1 {
+    font-size: 35px;
+    font-weight: 900;
+    color: #18d26e;
+}
+
+.judul2 {
+    font-style: bold;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: left;
+    color: white;
+}
+
+.judul2 u {
+    color: #15bb62;
+}
+
+/*-------------- ABOUT ----------*/
+#About {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    color: white;
+    background-color: black;
+}
+
+.section-title{
+    margin-left: 100px;
+}
+/* .fotoabout {
+    width: 150px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.about h1 {
+    font-style: bold;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #18d26e;
+} */
+
+.about p {
+    color: white;
+}
+.about strong {
+    color: #15bb62;
+}
+
+/*-------------- skill ----------*/
+#skill {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background-color: black;
+
+}
+
+.logo {
+    padding: 20px;
+    background-image: url('../public/img/bg_logo.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.skills {
+    width: 100%;
+    padding: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #15bb62;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.skill-bar {
+    height: 20px;
+    background: #cacaca;
+    border-radius: 8px;
+}
+
+.skill-per {
+    height: 20px;
+    background-color: #32cd32;
+    border-radius: 8px;
+    width: 0;
+    transition: 1s linear;
+    position: relative;
+}
+
+.skill-per::before {
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+}
+
+.skill-per::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    top: -16px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+}
+
+/*-------------- Contact ----------*/
+#contact {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    background-color: black;
+    color: #18d26e;
+}
+
+.contact p {
+    color: white;
+}
+
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+    border-radius: 10px;
+    box-shadow: none;
+    font-size: 14px;
+    background: gray;
+    border: 0;
+    transition: 0.3s;
+    color: #fff;
+}
+
+.contact .php-email-form button[type=submit] {
+    margin-top: 20px;
+    background: #18d26e;
+    border: 0;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+}
+
+.contact .php-email-form button[type=submit]:hover {
+    background: #15bb62;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    /* tinggi dari footer */
+    background: black;
+}
