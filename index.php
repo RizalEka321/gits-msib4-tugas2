@@ -31,7 +31,6 @@
                         <a class="nav-link" href="index.php?page=home">HOME</a>
                         <a class="nav-link" href="index.php?page=about">ABOUT</a>
                         <a class="nav-link" href="index.php?page=skill">SKILL</a>
-                        <a class="nav-link" href="index.php?page=project">PROJECT</a>
                         <a class="nav-link" href="index.php?page=contact">CONTACT</a>
                     </div>
                 </div>
@@ -52,9 +51,6 @@
                     break;
                 case 'skill':
                     include "skill.php";
-                    break;
-                case 'project':
-                    include "project.php";
                     break;
                 case 'contact':
                     include "contact.php";

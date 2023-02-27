@@ -1,4 +1,4 @@
-<!-- ======= About Me ======= -->
+<!-- ////////// ABOUT \\\\\\\\\ -->
 <section id="About" class="about">
     <div class="about-me container">
         <div class="row">
@@ -23,8 +23,7 @@
                 </div>
                 <br>
                 <p>
-                    Hobi saya bermain game dan saya memiliki cita cita untuk membuat game. Web Portofolio saya ini akan menunjukan sedikit skill dan 
-                    project-project yang pernah saya buat
+                    Hobi saya bermain game dan saya memiliki cita cita untuk membuat game. Web Portofolio saya ini akan menunjukan sedikit skill yang saya bisa
                 </p>
             </div>
         </div>
