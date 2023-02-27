@@ -1,3 +1,4 @@
+<!-- ////////// SKILL \\\\\\\\\ -->
 <section id="skill" class="skills">
     <div class="container">
         <div class="logo m-5">
