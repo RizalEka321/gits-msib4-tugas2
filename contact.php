@@ -6,7 +6,6 @@
 
             <div class="col-md-6 d-flex align-items-stretch">
                 <div class="info-box">
-                <i class="fa-solid fa-location-dot"></i>
                     <h3>My Address</h3>
                     <p>Roogojampi, Banyuwangi, Jawa Timur</p>
                 </div>
@@ -17,11 +16,9 @@
                     <i class="bx bx-share-alt"></i>
                     <h3>Social Profiles</h3>
                     <div class="social-links">
-                        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                        <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-                        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="github"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
                     </div>
                 </div>
             </div>
@@ -37,7 +34,7 @@
                 <div class="info-box">
                     <i class="bx bx-phone-call"></i>
                     <h3>Call Me</h3>
-                    <p>+1 5589 55488 55</p>
+                    <p>086232323242</p>
                 </div>
             </div>
         </div>
